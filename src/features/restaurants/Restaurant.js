@@ -1,13 +1,13 @@
 import React from "react";
 import ReviewsContainer from "../reviews/ReviewsContainer";
 
-function Restaurant({ restaurant }) {
+function Restaurant({ r }) {
   return (
     <div>
       <li>
-        {restaurant.name}
+        {r.name}
         <button> Delete Restaurant </button>
-        <ReviewsContainer restaurant={restaurant} />
+        <ReviewsContainer />
       </li>
     </div>
   );
